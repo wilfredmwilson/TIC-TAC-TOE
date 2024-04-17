@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.game-container {
+    padding: 10px;
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+}
+#game-message{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
+    font-weight: 500;
+}
+#board {
+    display: grid;
+    grid-template: 100px 100px 100px  / 100px 100px 100px;
+    margin: 5px 0 10px;
+}
+
+.cell {
+    background-color: #ffffff;
+    border: 1px solid #000000; 
+}
+
+#winner {
+    display: none;
+    margin-top: 20px;
+    margin-left: 639px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#play-again {
+    display: block;
+    margin-top: 5px;
+    padding: 9px 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-left: 640px;
+    border-radius: 15px;
+    /* color: white; */
+    background-color: cadetblue;
+    font-size: 20px;
+}
